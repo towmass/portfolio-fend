@@ -1,268 +1,295 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-    /* font-family: 'Alegreya Sans SC', sans-serif; */
-    font-size: 18px;
-    line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  /* font-family: 'Alegreya Sans SC', sans-serif; */
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 /* TO DO: to set bg later: https://www.w3schools.com/css/css_rwd_images.asp  */
 
-
 /* --------------------------------- Page 1 --------------------------------- */
 .container {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    background: url(../img/bg.jpg);
-    /* https://www.pexels.com/photo/clouds-cold-frost-frosty-540518/ */
-    background-position-x: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    /* max-width: 500px; */
-    /* margin: auto; */
-    /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../img/bg.jpg);
+  /* https://www.pexels.com/photo/clouds-cold-frost-frosty-540518/ */
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* max-width: 500px; */
+  /* margin: auto; */
+  /* overflow: hidden; */
 }
 
 nav {
-    order: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+  order: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
+
 nav ul {
-    list-style: none;
+  list-style: none;
 }
+
 nav li {
-    display: inline;
-    padding-bottom: 6px;
-    border-bottom: 1px solid white;
-    transition: 0.5s;
+  display: inline;
+  padding-bottom: 6px;
+  border-bottom: 1px solid white;
+  transition: 0.5s;
 }
+
 nav li:hover {
-    border-bottom: 1px solid rgba(255, 255, 255, 0);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    /* display: inline-block; */
-    padding: 22px 40px;
-    color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  /* display: inline-block; */
+  padding: 22px 40px;
+  color: white;
 }
+
 .header-menu {
-    display: none;
+  display: none;
 }
 
 .home-head {
-    order: 1;
-    width: 50%;
+  order: 1;
+  width: 50%;
 }
+
 .intro-text {
-    text-align: center;
-    /* margin-top: 20%; */
-    color: white;
+  text-align: center;
+  /* margin-top: 20%; */
+  color: white;
 }
+
 .intro-text h1 {
-    font-size: 8em;
-    margin: 30% 0 0 0;
+  font-size: 8em;
+  margin: 30% 0 0 0;
 }
+
 .intro-text h2 {
-    font-size: 1.2em;
-    margin: -5% 0 0 2%;
+  font-size: 1.2em;
+  margin: -5% 0 0 2%;
 }
 
 .content {
-    order: 2;
-    width: 50%;
-    /* background-color: rgba(0, 0, 0, 0.726); */
+  order: 2;
+  width: 50%;
+  /* background-color: rgba(0, 0, 0, 0.726); */
 }
+
 .wrapper {
-    text-align: left;
-    text-justify: auto;
-    margin: 20% 20% 5% 8%;
-    color: white;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px 20px 20px 24px;
-    letter-spacing: 0.6px;
+  text-align: left;
+  text-justify: auto;
+  margin: 20% 20% 5% 8%;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 20px 20px 24px;
+  letter-spacing: 0.6px;
 }
+
 .content-text {
-    transition: ease 0.3s;
-    margin-top: 1%;
-    border-left: 1px solid rgba(255, 255, 255, 0.6);
-    padding-left: 12px;
-    margin-bottom: 6%;
+  transition: ease 0.3s;
+  margin-top: 1%;
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  padding-left: 12px;
+  margin-bottom: 6%;
 }
+
 .content-head {
-    margin: 0;
-    transition: ease 0.8s;
+  margin: 0;
+  transition: ease 0.8s;
 }
+
 .content-head:hover ~ .content-text {
-    border-left: 5px solid white;
-    border-color: rgba(255, 255, 255, 0.2);
+  border-left: 5px solid white;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 /* --------------------------------- Page 2 --------------------------------- */
 .container2 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    background: url(../img/bg2.jpg);
-    /* https://www.pexels.com/photo/abstract-art-background-blue-370799/ */
-    background-position-x: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    /* max-width: 500px; */
-    /* margin: auto; */
-    /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../img/bg2.jpg);
+  /* https://www.pexels.com/photo/abstract-art-background-blue-370799/ */
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* max-width: 500px; */
+  /* margin: auto; */
+  /* overflow: hidden; */
 }
+
 .container2 h1 {
-    text-align: center;
-    margin: 30% 0 0 0;
-    padding: 10px;
-    /* filter: grayscale(0); */
-    border: 1px solid white;
+  text-align: center;
+  margin: 30% 0 0 0;
+  padding: 10px;
+  /* filter: grayscale(0); */
+  border: 1px solid white;
 }
+
 .languages {
-    order: 1;
-    width: 33.3%;
+  order: 1;
+  width: 33.3%;
 }
+
 .coding {
-    order: 2;
-    width: 33.3%;
-    /* background-color: rgba(0, 0, 0, 0.726); */
+  order: 2;
+  width: 33.3%;
+  /* background-color: rgba(0, 0, 0, 0.726); */
 }
+
 .sports {
-    order: 3;
-    width: 33.3%;
-    /* background-color: rgba(0, 0, 0, 0.726); */
+  order: 3;
+  width: 33.3%;
+  /* background-color: rgba(0, 0, 0, 0.726); */
 }
 .wrapper2 {
-    text-align: center;
-    text-justify: auto;
-    margin: 0% 0% 5% 0%;
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
-    padding: 10px 20px 20px 24px;
-    letter-spacing: 0.6px;
-    height: 100%;
-    transition: ease 0.7s;
-    /* filter: grayscale(30%); */
+  text-align: center;
+  text-justify: auto;
+  margin: 0% 0% 5% 0%;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  padding: 10px 20px 20px 24px;
+  letter-spacing: 0.6px;
+  height: 100%;
+  transition: ease 0.7s;
+  /* filter: grayscale(30%); */
 }
+
 .wrapper2:hover {
-    background: linear-gradient(145deg, rgba(1, 146, 146, 0.6), rgba(37, 2, 134, 0.6), rgba(62, 5, 128, 0.6));
-    /* color backup: background: linear-gradient(145deg, rgba(1, 211, 211, 0.6), rgba(55, 1, 202, 0.6), rgba(90, 8, 184, 0.6)); */
-    filter: grayscale(0);
+  background: linear-gradient(
+    145deg,
+    rgba(1, 146, 146, 0.6),
+    rgba(37, 2, 134, 0.6),
+    rgba(62, 5, 128, 0.6)
+  );
+  /* color backup: background: linear-gradient(145deg, rgba(1, 211, 211, 0.6), rgba(55, 1, 202, 0.6), rgba(90, 8, 184, 0.6)); */
+  filter: grayscale(0);
 }
+
 .filter {
-    filter: grayscale(100%);
-    display: block;
-    height: 100%;
-    width: 100%;
-    transition: ease 0.5s;
+  filter: grayscale(100%);
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition: ease 0.5s;
 }
+
 .filter:hover {
-    filter: grayscale(0);
+  filter: grayscale(0);
 }
+
 .skills-item {
-    padding: 20px 6px;
-    /* background: linear-gradient(145deg, rgba(0, 255, 255, 0.5), rgba(68, 0, 255, 0.5), rgba(127, 17, 252, 0.5)); */
-    margin: 10% 20% 0% 20%;
+  padding: 20px 6px;
+  /* background: linear-gradient(145deg, rgba(0, 255, 255, 0.5), rgba(68, 0, 255, 0.5), rgba(127, 17, 252, 0.5)); */
+  margin: 10% 20% 0% 20%;
 }
+
 .skills-item:hover {
-    color: white;
+  color: white;
 }
+
 .logos {
-    margin-top: 25%;
-    width: 90%;
-    /* Credit for logos svg: https://github.com/BuildFire/sdk/wiki */
+  margin-top: 25%;
+  width: 90%;
+  /* Credit for logos svg: https://github.com/BuildFire/sdk/wiki */
 }
 
 /* --------------------------------- Page 3 --------------------------------- */
 .container3 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    background:  url(../img/bg3.jpg) rgba(0, 0, 0, 0.9);
-    /* https://www.pexels.com/photo/blur-bottle-bright-building-273238/ */
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    /* max-width: 500px; */
-    /* margin: auto; */
-    /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../img/bg3.jpg) rgba(0, 0, 0, 0.9);
+  /* https://www.pexels.com/photo/blur-bottle-bright-building-273238/ */
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* max-width: 500px; */
+  /* margin: auto; */
+  /* overflow: hidden; */
+}
 
-}
 .contact {
-    width: 100%;
+  width: 100%;
 }
+
 .wrapper3 {
-    text-align: right;
-    height: 100%;
-    color: rgb(255, 255, 255);
-    /* background: rgba(0, 0, 0, 0.7); */
-    padding: 10% 10% 0 0;
+  text-align: right;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  /* background: rgba(0, 0, 0, 0.7); */
+  padding: 10% 10% 0 0;
 }
 .contact h2 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 /* Others */
 .top {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    font-size: 28px;
-    padding: 4px 20px 12px 20px;
-    background: rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
-    position: absolute;
-    bottom: 20px;
-    right: 30px;
-    transition: 0.5s;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 28px;
+  padding: 4px 20px 12px 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  transition: 0.5s;
 }
+
 .top:hover {
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
 }
 
 .fa {
-    padding: 20px 10px;
-    font-size: 30px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-    margin-right: 5%;
-    border-radius: 50%;
-    filter: grayscale(100%);
-    transition: ease 0.5s;
-  }
+  padding: 20px 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 5%;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  transition: ease 0.5s;
+}
 .fa:hover {
-    opacity: 1;
-    filter: grayscale(0);
+  opacity: 1;
+  filter: grayscale(0);
 }
 .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
+  background: #3b5998;
+  color: white;
+}
+
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+  background: #55acee;
+  color: white;
+}
 .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+  background: #007bb5;
+  color: white;
+}
