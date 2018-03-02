@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tomas Mandok</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <script src="js/menu.js"></script>
+
+    <!-- For the fullPage.js -->
+    <link rel="stylesheet" type="text/css" href="full/jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="full/jquery.fullPage.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100|Raleway:100" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300|Raleway:100,300" rel="stylesheet"> -->
+
+
+    <!-- Add social media buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <script>
+        $(document).ready(function () {
+            $("#fullpage").fullpage({
+                anchors: ["home", "skills", "contact"],
+                navigation: true,
+                scrollBar: true
+            });
+        });
+    </script>
+</head>
+
+<body onload="listen();">
+    <div id="fullpage">
+        <!-- ******************** Homepage ******************** -->
+        <div class="section active fp-auto-height-responsive">
+            <a id="menu-button" class="header-menu">
+                &#9776;
+            </a>
+            <nav id="drawer">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/towmass">GitHub</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="container">
+                <header class="home-head">
+                    <div class="intro-text">
+                        <h1>TM</h1>
+                        <h2>Simple Perfection.</h2>
+                    </div>
+                </header>
+
+                <main class="content">
+                    <div class="wrapper">
+                        <h3 class="content-head">Who am I</h3>
+                        <p class="content-text">Hi! My name is Tomas. I am a curious student, a passionate coder and an occasional squash player.</p>
+                        <h3 class="content-head">Where do I live</h3>
+                        <p class="content-text">I was born in the Czech Republic. However, I am currently studying in Ireland via the Erasmus+ programme.
+                        </p>
+                        <h3 class="content-head">What do I enjoy</h3>
+                        <p class="content-text">I especially like learning new things such as coding this website.</p>
+                    </div>
+
+                </main>
+            </div>
+        </div>
+
+        <!-- ******************** Skills ******************** -->
+        <div class="section fp-auto-height-responsive">
+            <div class="container2">
+                <section class="languages">
+                    <div class="wrapper2">
+                        <div class="filter">
+                            <h1>Languages</h1>
+                            <div class="skills-item">
+                                Czech
+                            </div>
+                            <div class="skills-item">
+                                English
+                            </div>
+                            <div class="skills-item">
+                                French
+                            </div>
+                            <div class="skills-item">
+                                German
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="coding">
+                    <div class="wrapper2">
+                        <div class="filter">
+                            <h1>Coding</h1>
+                            <img src="img/logos.svg" class="logos">
+                        </div>
+                    </div>
+                </section>
+                <section class="sports">
+                    <div class="wrapper2">
+                        <div class="filter">
+                            <h1>Sports</h1>
+                            <div class="skills-item">
+                                Squash
+                            </div>
+                            <div class="skills-item">
+                                Billiard
+                            </div>
+                            <div class="skills-item">
+                                Fitness
+                            </div>
+                            <div class="skills-item">
+                                Football
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <a href="#home" class="top">&and;</a>
+        </div>
+
+        <!-- ******************** Contact ******************** -->
+        <div class="section fp-auto-height-responsive">
+            <div class="container3">
+                <main class="contact">
+                    <div class="wrapper3">
+                        <h2>Let's keep in touch.</h2>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+                </main>
+            </div>
+            <a href="#home" class="top">&and;</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
