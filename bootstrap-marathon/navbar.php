@@ -7,13 +7,14 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php"><i class="fas fa-home"></i> Home</a>
+        <a class="nav-link" href="/bootstrap-marathon/index.php"><i class="fas fa-home"></i> Home</a>
       </li>
     </ul>
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="btn btn-outline-success" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+        <a class="btn btn-outline-success" href="/bootstrap-marathon/login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
       </li>
+      &nbsp;
       <li class="nav-item active">
         <a class="btn btn-outline-warning" href="#"><i class="fas fa-user-plus"></i> Register</a>
       </li>
